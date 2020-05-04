@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B40DFC9B61744DB068849A /* Pods_NaganitaraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4051025FB9AC76C6CD3653 /* Pods_NaganitaraTests.framework */; };
+		C60E8FE505028D957B6DA016 /* Pods_Naganitara_NaganitaraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6602C775C97CFE1A9557B0FE /* Pods_Naganitara_NaganitaraUITests.framework */; };
+		CE01D4B123B0A405003AF4F1 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01D4B023B0A405003AF4F1 /* SignUpController.swift */; };
+		CE01D4B323B0B33F003AF4F1 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01D4B223B0B33F003AF4F1 /* StudentViewController.swift */; };
+		CE094B552405696D00C460E8 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE094B542405696D00C460E8 /* CollectionViewCell1.swift */; };
+		CE27BC9C24252C1500974333 /* grayscale-photo-of-cutaway-acoustic-guitar-1010518.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE27BC9B24252C1500974333 /* grayscale-photo-of-cutaway-acoustic-guitar-1010518.jpg */; };
+		CE27BCA024262DB600974333 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27BC9F24262DB600974333 /* MainTableViewCell.swift */; };
+		CE84089124269307004B0A2F /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84089024269307004B0A2F /* Lesson.swift */; };
+		CE8408932426A7EC004B0A2F /* LessonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8408922426A7EB004B0A2F /* LessonDataSource.swift */; };
+		CE90696B240166B40051EB75 /* patiphone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE90696A240166B40051EB75 /* patiphone.mp4 */; };
+		CE90696D2401848E0051EB75 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90696C2401848E0051EB75 /* CollectionViewCell.swift */; };
+		CE90696F240188A00051EB75 /* ReadyLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90696E240188A00051EB75 /* ReadyLessonViewController.swift */; };
+		CE9789362455BF5B004BCB53 /* EditLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9789352455BF5B004BCB53 /* EditLessonViewController.swift */; };
+		CEA2CC8923C5F32200975405 /* Sign_In_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CC8823C5F32200975405 /* Sign_In_ViewController.swift */; };
+		CEA2CC8C23C6654300975405 /* PersonPlayingAGuitar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEA2CC8B23C6654300975405 /* PersonPlayingAGuitar.mp4 */; };
+		CEB669C323B4B27B00D18A89 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB669C223B4B27A00D18A89 /* LessonViewController.swift */; };
+		CEB669C523B4C17300D18A89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEB669C423B4C17300D18A89 /* GoogleService-Info.plist */; };
+		CEC6D0FD2432A1B300AF7FD3 /* extentionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D0FC2432A1B300AF7FD3 /* extentionDate.swift */; };
+		CEE0398A23ABAADB006EE06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0398923ABAADB006EE06F /* AppDelegate.swift */; };
+		CEE0398C23ABAADB006EE06F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0398B23ABAADB006EE06F /* SceneDelegate.swift */; };
+		CEE0398E23ABAADB006EE06F /* Enter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0398D23ABAADB006EE06F /* Enter.swift */; };
+		CEE0399123ABAADB006EE06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE0398F23ABAADB006EE06F /* Main.storyboard */; };
+		CEE0399323ABAADC006EE06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE0399223ABAADC006EE06F /* Assets.xcassets */; };
+		CEE0399623ABAADC006EE06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE0399423ABAADC006EE06F /* LaunchScreen.storyboard */; };
+		CEE3BF3924434F0800CAD4A7 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3BF3824434F0800CAD4A7 /* ImageService.swift */; };
+		CEF0F3C623B3E34A00CC3AF3 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0F3C523B3E34A00CC3AF3 /* ImagesTableViewController.swift */; };
+		D69388036EBCF7CA7D31F1FC /* Pods_Naganitara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78239240190CE340B6FF7A8 /* Pods_Naganitara.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE0399D23ABAADC006EE06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE0397E23ABAADB006EE06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE0398523ABAADB006EE06F;
+			remoteInfo = Naganitara;
+		};
+		CEE039A823ABAADC006EE06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE0397E23ABAADB006EE06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE0398523ABAADB006EE06F;
+			remoteInfo = Naganitara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EE4EF4FA6BCE765AFB7ECA8 /* Pods-Naganitara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naganitara.release.xcconfig"; path = "Target Support Files/Pods-Naganitara/Pods-Naganitara.release.xcconfig"; sourceTree = "<group>"; };
+		5A4051025FB9AC76C6CD3653 /* Pods_NaganitaraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaganitaraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6602C775C97CFE1A9557B0FE /* Pods_Naganitara_NaganitaraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naganitara_NaganitaraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEA6BA02DF6B2D17031410F /* Pods-Naganitara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naganitara.debug.xcconfig"; path = "Target Support Files/Pods-Naganitara/Pods-Naganitara.debug.xcconfig"; sourceTree = "<group>"; };
+		A00F22BED6F6B44190C87141 /* Pods-Naganitara-NaganitaraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naganitara-NaganitaraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Naganitara-NaganitaraUITests/Pods-Naganitara-NaganitaraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A203B85BDFD0D2C0274D6550 /* Pods-NaganitaraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaganitaraTests.release.xcconfig"; path = "Target Support Files/Pods-NaganitaraTests/Pods-NaganitaraTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE01D4B023B0A405003AF4F1 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		CE01D4B223B0B33F003AF4F1 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		CE094B542405696D00C460E8 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		CE27BC9B24252C1500974333 /* grayscale-photo-of-cutaway-acoustic-guitar-1010518.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grayscale-photo-of-cutaway-acoustic-guitar-1010518.jpg"; sourceTree = "<group>"; };
+		CE27BC9F24262DB600974333 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		CE84089024269307004B0A2F /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lesson.swift; path = Naganitara/Lesson.swift; sourceTree = SOURCE_ROOT; };
+		CE8408922426A7EB004B0A2F /* LessonDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDataSource.swift; sourceTree = "<group>"; };
+		CE90696A240166B40051EB75 /* patiphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = patiphone.mp4; path = Naganitara/media/patiphone.mp4; sourceTree = "<group>"; };
+		CE90696C2401848E0051EB75 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE90696E240188A00051EB75 /* ReadyLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyLessonViewController.swift; sourceTree = "<group>"; };
+		CE9789352455BF5B004BCB53 /* EditLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLessonViewController.swift; sourceTree = "<group>"; };
+		CEA2CC8823C5F32200975405 /* Sign_In_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_In_ViewController.swift; sourceTree = "<group>"; };
+		CEA2CC8B23C6654300975405 /* PersonPlayingAGuitar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PersonPlayingAGuitar.mp4; sourceTree = "<group>"; };
+		CEB669C223B4B27A00D18A89 /* LessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		CEB669C423B4C17300D18A89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEC6D0FC2432A1B300AF7FD3 /* extentionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentionDate.swift; sourceTree = "<group>"; };
+		CEE0398623ABAADB006EE06F /* Naganitara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naganitara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE0398923ABAADB006EE06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE0398B23ABAADB006EE06F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEE0398D23ABAADB006EE06F /* Enter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enter.swift; sourceTree = "<group>"; };
+		CEE0399023ABAADB006EE06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE0399223ABAADC006EE06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE0399523ABAADC006EE06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE0399723ABAADC006EE06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE0399C23ABAADC006EE06F /* NaganitaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaganitaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE039A723ABAADC006EE06F /* NaganitaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaganitaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE3BF3824434F0800CAD4A7 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		CEF0F3C523B3E34A00CC3AF3 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
+		E16992742CCFDEDD42DD9C82 /* Pods-NaganitaraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaganitaraTests.debug.xcconfig"; path = "Target Support Files/Pods-NaganitaraTests/Pods-NaganitaraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F78239240190CE340B6FF7A8 /* Pods_Naganitara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naganitara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC38D9C0E076A99EDCF16CB /* Pods-Naganitara-NaganitaraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naganitara-NaganitaraUITests.release.xcconfig"; path = "Target Support Files/Pods-Naganitara-NaganitaraUITests/Pods-Naganitara-NaganitaraUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE0398323ABAADB006EE06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69388036EBCF7CA7D31F1FC /* Pods_Naganitara.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE0399923ABAADC006EE06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B40DFC9B61744DB068849A /* Pods_NaganitaraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE039A423ABAADC006EE06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E8FE505028D957B6DA016 /* Pods_Naganitara_NaganitaraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107F23E0141146272E80731E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F78239240190CE340B6FF7A8 /* Pods_Naganitara.framework */,
+				6602C775C97CFE1A9557B0FE /* Pods_Naganitara_NaganitaraUITests.framework */,
+				5A4051025FB9AC76C6CD3653 /* Pods_NaganitaraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		833E8BAFFFCD7E046865AC59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BEA6BA02DF6B2D17031410F /* Pods-Naganitara.debug.xcconfig */,
+				3EE4EF4FA6BCE765AFB7ECA8 /* Pods-Naganitara.release.xcconfig */,
+				A00F22BED6F6B44190C87141 /* Pods-Naganitara-NaganitaraUITests.debug.xcconfig */,
+				FAC38D9C0E076A99EDCF16CB /* Pods-Naganitara-NaganitaraUITests.release.xcconfig */,
+				E16992742CCFDEDD42DD9C82 /* Pods-NaganitaraTests.debug.xcconfig */,
+				A203B85BDFD0D2C0274D6550 /* Pods-NaganitaraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE01D4AF23B0A3A7003AF4F1 /* controller's */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0398D23ABAADB006EE06F /* Enter.swift */,
+				CE01D4B023B0A405003AF4F1 /* SignUpController.swift */,
+				CEA2CC8823C5F32200975405 /* Sign_In_ViewController.swift */,
+				CE01D4B223B0B33F003AF4F1 /* StudentViewController.swift */,
+				CEB669C223B4B27A00D18A89 /* LessonViewController.swift */,
+				CE90696E240188A00051EB75 /* ReadyLessonViewController.swift */,
+				CE9789352455BF5B004BCB53 /* EditLessonViewController.swift */,
+				CEF0F3C523B3E34A00CC3AF3 /* ImagesTableViewController.swift */,
+				CE84089024269307004B0A2F /* Lesson.swift */,
+				CE8408922426A7EB004B0A2F /* LessonDataSource.swift */,
+			);
+			path = "controller's";
+			sourceTree = "<group>";
+		};
+		CE906970240188DD0051EB75 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE90696C2401848E0051EB75 /* CollectionViewCell.swift */,
+				CE094B542405696D00C460E8 /* CollectionViewCell1.swift */,
+				CE27BC9F24262DB600974333 /* MainTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		CEA2CC8A23C63A3500975405 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2CC8B23C6654300975405 /* PersonPlayingAGuitar.mp4 */,
+				CE27BC9B24252C1500974333 /* grayscale-photo-of-cutaway-acoustic-guitar-1010518.jpg */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		CEC6D0FB2432A15E00AF7FD3 /* extention's */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D0FC2432A1B300AF7FD3 /* extentionDate.swift */,
+			);
+			path = "extention's";
+			sourceTree = "<group>";
+		};
+		CEE0397D23ABAADB006EE06F = {
+			isa = PBXGroup;
+			children = (
+				CE90696A240166B40051EB75 /* patiphone.mp4 */,
+				CEE0398823ABAADB006EE06F /* Naganitara */,
+				CEE0398723ABAADB006EE06F /* Products */,
+				833E8BAFFFCD7E046865AC59 /* Pods */,
+				107F23E0141146272E80731E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE0398723ABAADB006EE06F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0398623ABAADB006EE06F /* Naganitara.app */,
+				CEE0399C23ABAADC006EE06F /* NaganitaraTests.xctest */,
+				CEE039A723ABAADC006EE06F /* NaganitaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE0398823ABAADB006EE06F /* Naganitara */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3BF3724434ECB00CAD4A7 /* service's */,
+				CEC6D0FB2432A15E00AF7FD3 /* extention's */,
+				CEA2CC8A23C63A3500975405 /* media */,
+				CEE0398923ABAADB006EE06F /* AppDelegate.swift */,
+				CEE0398B23ABAADB006EE06F /* SceneDelegate.swift */,
+				CE906970240188DD0051EB75 /* cells */,
+				CE01D4AF23B0A3A7003AF4F1 /* controller's */,
+				CEE0399223ABAADC006EE06F /* Assets.xcassets */,
+				CEE0398F23ABAADB006EE06F /* Main.storyboard */,
+				CEE0399423ABAADC006EE06F /* LaunchScreen.storyboard */,
+				CEE0399723ABAADC006EE06F /* Info.plist */,
+				CEB669C423B4C17300D18A89 /* GoogleService-Info.plist */,
+			);
+			path = Naganitara;
+			sourceTree = "<group>";
+		};
+		CEE3BF3724434ECB00CAD4A7 /* service's */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3BF3824434F0800CAD4A7 /* ImageService.swift */,
+			);
+			path = "service's";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE0398523ABAADB006EE06F /* Naganitara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE039B023ABAADC006EE06F /* Build configuration list for PBXNativeTarget "Naganitara" */;
+			buildPhases = (
+				E52EDCAA6BABB883A85AE3E8 /* [CP] Check Pods Manifest.lock */,
+				CEE0398223ABAADB006EE06F /* Sources */,
+				CEE0398323ABAADB006EE06F /* Frameworks */,
+				CEE0398423ABAADB006EE06F /* Resources */,
+				0A1C022EC14FFDEBD829A123 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Naganitara;
+			productName = Naganitara;
+			productReference = CEE0398623ABAADB006EE06F /* Naganitara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE0399B23ABAADC006EE06F /* NaganitaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE039B323ABAADC006EE06F /* Build configuration list for PBXNativeTarget "NaganitaraTests" */;
+			buildPhases = (
+				FCB83C5915204F715B6F66AE /* [CP] Check Pods Manifest.lock */,
+				CEE0399823ABAADC006EE06F /* Sources */,
+				CEE0399923ABAADC006EE06F /* Frameworks */,
+				CEE0399A23ABAADC006EE06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE0399E23ABAADC006EE06F /* PBXTargetDependency */,
+			);
+			name = NaganitaraTests;
+			productName = NaganitaraTests;
+			productReference = CEE0399C23ABAADC006EE06F /* NaganitaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE039A623ABAADC006EE06F /* NaganitaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE039B623ABAADC006EE06F /* Build configuration list for PBXNativeTarget "NaganitaraUITests" */;
+			buildPhases = (
+				0D7036C3156546884FA09272 /* [CP] Check Pods Manifest.lock */,
+				CEE039A323ABAADC006EE06F /* Sources */,
+				CEE039A423ABAADC006EE06F /* Frameworks */,
+				CEE039A523ABAADC006EE06F /* Resources */,
+				AEBE19100C5CA9B01CBB6467 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE039A923ABAADC006EE06F /* PBXTargetDependency */,
+			);
+			name = NaganitaraUITests;
+			productName = NaganitaraUITests;
+			productReference = CEE039A723ABAADC006EE06F /* NaganitaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE0397E23ABAADB006EE06F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Naganitara;
+				TargetAttributes = {
+					CEE0398523ABAADB006EE06F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					CEE0399B23ABAADC006EE06F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CEE0398523ABAADB006EE06F;
+					};
+					CEE039A623ABAADC006EE06F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CEE0398523ABAADB006EE06F;
+					};
+				};
+			};
+			buildConfigurationList = CEE0398123ABAADB006EE06F /* Build configuration list for PBXProject "Naganitara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE0397D23ABAADB006EE06F;
+			productRefGroup = CEE0398723ABAADB006EE06F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE0398523ABAADB006EE06F /* Naganitara */,
+				CEE0399B23ABAADC006EE06F /* NaganitaraTests */,
+				CEE039A623ABAADC006EE06F /* NaganitaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE0398423ABAADB006EE06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE90696B240166B40051EB75 /* patiphone.mp4 in Resources */,
+				CEE0399623ABAADC006EE06F /* LaunchScreen.storyboard in Resources */,
+				CEB669C523B4C17300D18A89 /* GoogleService-Info.plist in Resources */,
+				CEA2CC8C23C6654300975405 /* PersonPlayingAGuitar.mp4 in Resources */,
+				CEE0399323ABAADC006EE06F /* Assets.xcassets in Resources */,
+				CE27BC9C24252C1500974333 /* grayscale-photo-of-cutaway-acoustic-guitar-1010518.jpg in Resources */,
+				CEE0399123ABAADB006EE06F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE0399A23ABAADC006EE06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE039A523ABAADC006EE06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A1C022EC14FFDEBD829A123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naganitara/Pods-Naganitara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naganitara/Pods-Naganitara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naganitara/Pods-Naganitara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D7036C3156546884FA09272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Naganitara-NaganitaraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBE19100C5CA9B01CBB6467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naganitara-NaganitaraUITests/Pods-Naganitara-NaganitaraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Naganitara-NaganitaraUITests/Pods-Naganitara-NaganitaraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naganitara-NaganitaraUITests/Pods-Naganitara-NaganitaraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52EDCAA6BABB883A85AE3E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Naganitara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB83C5915204F715B6F66AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaganitaraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE0398223ABAADB006EE06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8408932426A7EC004B0A2F /* LessonDataSource.swift in Sources */,
+				CEE3BF3924434F0800CAD4A7 /* ImageService.swift in Sources */,
+				CEB669C323B4B27B00D18A89 /* LessonViewController.swift in Sources */,
+				CE01D4B323B0B33F003AF4F1 /* StudentViewController.swift in Sources */,
+				CE90696D2401848E0051EB75 /* CollectionViewCell.swift in Sources */,
+				CE9789362455BF5B004BCB53 /* EditLessonViewController.swift in Sources */,
+				CEC6D0FD2432A1B300AF7FD3 /* extentionDate.swift in Sources */,
+				CEE0398E23ABAADB006EE06F /* Enter.swift in Sources */,
+				CE094B552405696D00C460E8 /* CollectionViewCell1.swift in Sources */,
+				CEE0398A23ABAADB006EE06F /* AppDelegate.swift in Sources */,
+				CEA2CC8923C5F32200975405 /* Sign_In_ViewController.swift in Sources */,
+				CE90696F240188A00051EB75 /* ReadyLessonViewController.swift in Sources */,
+				CEE0398C23ABAADB006EE06F /* SceneDelegate.swift in Sources */,
+				CEF0F3C623B3E34A00CC3AF3 /* ImagesTableViewController.swift in Sources */,
+				CE84089124269307004B0A2F /* Lesson.swift in Sources */,
+				CE27BCA024262DB600974333 /* MainTableViewCell.swift in Sources */,
+				CE01D4B123B0A405003AF4F1 /* SignUpController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE0399823ABAADC006EE06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE039A323ABAADC006EE06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE0399E23ABAADC006EE06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE0398523ABAADB006EE06F /* Naganitara */;
+			targetProxy = CEE0399D23ABAADC006EE06F /* PBXContainerItemProxy */;
+		};
+		CEE039A923ABAADC006EE06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE0398523ABAADB006EE06F /* Naganitara */;
+			targetProxy = CEE039A823ABAADC006EE06F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE0398F23ABAADB006EE06F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE0399023ABAADB006EE06F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE0399423ABAADC006EE06F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE0399523ABAADC006EE06F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE039AE23ABAADC006EE06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE039AF23ABAADC006EE06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE039B123ABAADC006EE06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEA6BA02DF6B2D17031410F /* Pods-Naganitara.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Naganitara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itai-Gary.Naganitara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE039B223ABAADC006EE06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE4EF4FA6BCE765AFB7ECA8 /* Pods-Naganitara.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Naganitara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itai-Gary.Naganitara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE039B423ABAADC006EE06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16992742CCFDEDD42DD9C82 /* Pods-NaganitaraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaganitaraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itai-Gary.NaganitaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naganitara.app/Naganitara";
+			};
+			name = Debug;
+		};
+		CEE039B523ABAADC006EE06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A203B85BDFD0D2C0274D6550 /* Pods-NaganitaraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaganitaraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itai-Gary.NaganitaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naganitara.app/Naganitara";
+			};
+			name = Release;
+		};
+		CEE039B723ABAADC006EE06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00F22BED6F6B44190C87141 /* Pods-Naganitara-NaganitaraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaganitaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itai-Gary.NaganitaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Naganitara;
+			};
+			name = Debug;
+		};
+		CEE039B823ABAADC006EE06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC38D9C0E076A99EDCF16CB /* Pods-Naganitara-NaganitaraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaganitaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Itai-Gary.NaganitaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Naganitara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE0398123ABAADB006EE06F /* Build configuration list for PBXProject "Naganitara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE039AE23ABAADC006EE06F /* Debug */,
+				CEE039AF23ABAADC006EE06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE039B023ABAADC006EE06F /* Build configuration list for PBXNativeTarget "Naganitara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE039B123ABAADC006EE06F /* Debug */,
+				CEE039B223ABAADC006EE06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE039B323ABAADC006EE06F /* Build configuration list for PBXNativeTarget "NaganitaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE039B423ABAADC006EE06F /* Debug */,
+				CEE039B523ABAADC006EE06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE039B623ABAADC006EE06F /* Build configuration list for PBXNativeTarget "NaganitaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE039B723ABAADC006EE06F /* Debug */,
+				CEE039B823ABAADC006EE06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE0397E23ABAADB006EE06F /* Project object */;
+}
